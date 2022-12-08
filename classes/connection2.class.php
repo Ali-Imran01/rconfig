@@ -41,12 +41,27 @@ class Connection {
      * @param  integer $timeout  Connection timeout (seconds)
      * @return object  Telnet object
      */
-    public function __construct($hostname, $username = "", $password, 
-            $enableModePassword, $connPort, $timeout = 60, 
-            $userPrmpt, $passPrmpt, $enable, 
-            $enableCmd, $enablePrompt, $enablePassPrmpt, $prompt, 
-            $linebreak, $paging, $pagingCmd, $pagerPrompt, $pagerPromptCmd, $resetPagingCmd,
-            $hpAnyKeyStatus, $hpAnyKeyPrmpt) {
+    public function __construct($hostname, 
+                                $username = "", 
+                                $password, 
+                                $enableModePassword, 
+                                $connPort, 
+                                $timeout = 60, 
+                                $userPrmpt, 
+                                $passPrmpt, 
+                                $enable, 
+                                $enableCmd, 
+                                $enablePrompt, 
+                                $enablePassPrmpt, 
+                                $prompt, 
+                                $linebreak, 
+                                $paging, 
+                                $pagingCmd, 
+                                $pagerPrompt, 
+                                $pagerPromptCmd,
+                                $resetPagingCmd,
+                                $hpAnyKeyStatus, 
+                                $hpAnyKeyPrmpt) {
         $this->_hostname = $hostname;
         $this->_username = $username;
         $this->_password = $password;
