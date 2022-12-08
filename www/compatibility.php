@@ -19,23 +19,23 @@
                 <div id="dashboardLeft">
                     <div id="browserRequirements">
                         <h2 id="_h">Your web browser is out of date!</h2>
-                        <p id="_p">To get the best possible experience using our website we recommend that you upgrade to a newer version or other web browser. A list of the most popular web browsers can be found below.</p>
-                        <div class="spacer"></div><br/>
-                        <p id="_p">Just click on the icons to get to the download page</p>
+<p id="_p">To get the best possible experience using our website we recommend that you upgrade to a newer version or other web browser. A list of the most popular web browsers can be found below.</p>
+<div class="spacer"></div><br/>
+<p id="_p">Just click on the icons to get to the download page</p>
 
-                        <ul>
-                            <li id="_li1" onclick="window.open('http://www.microsoft.com/windows/Internet-explorer/default.aspx');">
-                                <div id="_ico1">
-                                </div>
-                                <div id="_lit1">Internet Explorer 7+
-                                </div>
-                            </li>
-                        </ul>
+<ul>
+    <li id="_li1" onclick="window.open('http://www.microsoft.com/windows/Internet-explorer/default.aspx');">
+        <div id="_ico1">
+        </div>
+        <div id="_lit1">Internet Explorer 7+
+        </div>
+    </li>
+</ul>
 
-                        <ul>
-                            <li id="_li2" onclick="window.open('http://www.mozilla.com/firefox/');">
-                                <div id="_ico2">
-                                </div>
+<ul>
+    <li id="_li2" onclick="window.open('http://www.mozilla.com/firefox/');">
+        <div id="_ico2">
+        </div>
                                 <div id="_lit2">Firefox 3.6+
                                 </div>
                             </li>
